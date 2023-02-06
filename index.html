@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link href="css/custom.css" rel="stylesheet" type="text/css">
         <title>Learning as a Service</title>
@@ -34,11 +36,12 @@
                             <li><a class="dropdown-item" href="#col-consulting">Consulting on Learning</a></li>
                             <li><a class="dropdown-item" href="#col-training">Training</a></li>
                             <li><a class="dropdown-item" href="#col-events">Cross-functional Events</a></li>
+                            <li><a class="dropdown-item" href="#row-survey">Learning Culture Survey</a></li>
                         </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#row-case-studies">Case Studies</a>
-                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="#col-case-studies">Case Studies</a>                            
+                        </li>-->
                         <li class="nav-item">
                             <a class="nav-link" href="#row-contact">Contact</a>
                         </li>
@@ -49,7 +52,7 @@
         </header>
         <div class="container-fluid text-center p-0">
             <div class="row">
-                <div class="col">
+                <div class="col px-0">
                     <div id="logo"></div>
                     <div id="banner"></div>
                 </div>
@@ -61,26 +64,26 @@
                 </div>
             </div>
             <div class="row" id="row-feature-boxes">
-                <div class="col col-md-3 bg-blue">
+                <a class="col col-md-3 bg-blue" href="#row-why-laas">
                     <span class="icon" id="icon-about"></span>
                     <h3 class="align-middle">Why LaaS</h3>
-                    <p class="px-4">Learn how LaaS can benefit you and your business</p>
-                </div>
-                <div class="col col-md-3 bg-yellow">
+                    <p class="px-4">How LaaS can benefit you and your business</p>
+                </a>
+                <a class="col col-md-3 bg-yellow" href="#row-survey">
                     <span class="icon" id="icon-survey"></span>
                     <h3>Learning Culture Survey</h3>
                     <p class="px-4">Learning health check for teams</p>
-                </div>
-                <div class="col col-md-3 bg-teal">
+                </a>
+                <a class="col col-md-3 bg-teal" href="#col-case-studies">
                     <span class="icon" id="icon-case-study"></span>
                     <h3>Case Studies</h3>
-                    <p class="px-4">See some examples of my work</p>
-                </div>
-                <div class="col col-md-3 bg-black">
+                    <p class="px-4">Coming soon!</p>
+                </a>
+                <a class="col col-md-3 bg-black" href="#row-contact">
                     <span class="icon" id="icon-coffee"></span>
                     <h3>Let's Talk</h3>                    
                     <p class="px-4">Book a 15-minute coffee meeting</p>                               
-                </div>
+                </a>
             </div>
             <div class="row bg-black p-4" id="row-about">
                 <div class="col-md-12">
@@ -96,14 +99,14 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="container">
-                           <h3>Achieve greater autonomy and flexibility</h3>
-                        <p>Individuals and teams must take responsibility for their own learning in order to achieve true autonomy. Think of LaaS as an enabling team, seeking to increase the autonomy and learning efficacy of those it serves. Ideally it is short lived, offering a cost-saving alternative to a more traditional HR-led Learning & Development (L&D) function.</p>
-                        <img src="images/topologies.png" alt="LaaS represented as an enabling team in Team Topologies notation"> 
+                           <h3><span class="number">1</span> Achieve greater autonomy and flexibility</h3>
+                            <p>Individuals and teams must take responsibility for their own learning in order to achieve true autonomy. Think of LaaS as an enabling team, seeking to increase the autonomy and learning efficacy of those it serves. Ideally it is short lived, offering a cost-saving alternative to a more traditional HR-led Learning & Development (L&D) function.</p>
+                            <img src="images/topologies.png" alt="LaaS represented as an enabling team in Team Topologies notation"> 
                         </div>                        
                     </div>
                     <div class="col-md-4">
                         <div class="container">
-                            <h3>Support transformation</h3>
+                            <h3><span class="number">2</span> Support transformation</h3>
                             <p>For digital transformation to work, it's the people as well the technology that need to evolve. Transforming people is a gradual process, and one that can't be administered via YouTube tutorials or an e-learning platform. It calls on leaders to build a culture in which people are supported to learn autonomously. LaaS can help you to do that.</p>
                             <p class="text-center">Watch me talk about <a href="https://leaddev.com/berlin/video/lean-devops-approach-learning-development" target="_blank">how lean and agile methodologies can support autonomous learning!</a></p>
                             <img alt="Sorrel speaking at LeadDev Berlin 2022 on a Lean Agile Approach to Learning & Development" src="images/sorrel-leaddev.jpg" id="img-leaddev">
@@ -112,7 +115,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="container">
-                            <h3>Nurture innovation and resilience</h3>
+                            <h3><span class="number">3</span> Nurture innovation and resilience</h3>
                             <p>In a recession, L&D will be the first thing many leaders think of cutting back on. What they may fail to understand is that learning is a habit. You cannot turn it off and on will. When you make learning cuts, your learning culture may suffer, and your people may lose their learning efficacy. This is bad news for innovation and resilience within a fast-changing sector.</p>
                             <p><em>However...</em> it is possible to continue to nurture a culture of continuous learning on a more modest budget.</p>
                             <p>I will work with you, using data-driven approaches, to help you make the best decisions around learning for your business and its people.</p>
@@ -120,6 +123,67 @@
                     </div>
                 </div>
             </div>
+            <div id="row-services">
+                <div class="row p-0">
+                    <div class="col-md-6 bg-blue" id="col-coaching">
+                        <h3>Coaching</h3>
+                        <div class="row">
+                            <div class="col">
+                                <p>I offer a range of coaching services to support within-work continuous learning. These include learning 1-1s, in which I work with individuals to build and maintain a learning backlog; coaching teams on group learning behaviours; and coaching leaders on supporting and embedding learning in their teams.</p>
+                                <p>Read about how I am <a target="_blank" href="https://medium.com/@sorrelharriet/bringing-lean-agile-to-continuing-professional-development-93f5036399fd">Bringing Lean and Agile to Professional Development</a> on Medium.</p>
+                            </div>
+                            <div class="col">
+                                <blockquote>
+                                    "Sorrel's knowledge of resources and connections with other experts accelerated my learning. I encounter many competing demands for attention. Her help with structuring personal development over time was invaluable for helping me keep focused."</blockquote>
+                                <!--<blockquote>"You brought to my attention areas of learning that I had not considered before."</blockquote>-->
+                                <blockquote>"Fleshing out my values and writing a personal value statement really helped me focus on what I want. It helped guide me and it was an invaluable activity when reflecting on what I want to do."</blockquote>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6 bg-yellow" id="col-consulting">
+                        <h3>Consulting on Learning</h3>
+                        <p>Every situation is different and brings unique challenges. As a learning consultant, I can work in partnership with you to identify your goals around learning and design your learning strategy around them. As part of this process, I may suggest running culture and/or skills assessments with your teams.</p>
+                        <p>It may also be the case that you have a specific problem you’re facing around learning and development and would like some advice on how to approach it.</p>
+                        <p>I am eager to get to know you and your business, so please <a href="#row-contact">book a free, no-obligation 15-minute coffee chat.</a></p>
+                    </div>
+                </div>
+                <div class="row p-0">
+                    <div class="col-md-6 bg-teal" id="col-training">
+                        <h3>Training</h3>
+                        <p>I offer a variety of workshops and hands-on training to support the embedding of continuous learning. Download an indicative outline of my <a href="products/LaaS_Lead_on_learning_Curriculum.pdf" target="_blank">Leading on Learning</a> programme for engineering leads and managers.</p>
+                        <p>As an experienced trainer and educator, I can also advise you and your teams on curriculum design, content development, and training delivery. I am particularly keen to support the delivery of inclusive learning experiences with consideration for the many dimensions of diversity.</p>
+                        <!--<p>Download an indicative outline of my <a href="#" target="_blank">Train the Trainer</a> programme for those who deliver training.</p>-->
+                    </div>
+                    <div class="col-md-6 bg-black" id="col-events">
+                        <h3>Cross-functional Events</h3>
+                        <div class="row">
+                            <div class="col">
+                                <p>I am experienced designing and facilitating cross-functional learning events to engage your people and foster collective learning.</p>
+                        <p>Read about how I transformed Armakuni's company-wide inset days into <a href="#" target="_blank">Impactful Cross-Functional Learning Events</a></p>
+                            </div>
+                            <div class="col">
+                                <blockquote>"Sorrel has made AK Days unforgettable experiences... She was even recording update videos before they were cool - I don't know whether the pirate video or the bucket on the head video is my favourite - but they're both permanently etched into my brain."</blockquote>
+                                <p class="caption">- Ben Steele, CDO at Armakuni</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>    
+            </div>
+            <div class="row bg-yellow p-4" id="row-survey">
+                <h2>Learning Culture Survey</h2>
+                <p>I am currently offering a free learning culture health check for up to 5 of your teams. <a href="#row-contact">Book a meeting</a> to find out more.</p>
+                <div class="col-md-12">
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQCpo_oc9aNfv7FGz-0s-LezmqZ5k997JlYNig88y8DCFCxAK5TXgVuxJtlEIHFCWVw7LHW5NUePd2M/embed?start=false&loop=true&delayms=5000" frameborder="0" width="100%" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </div>
+            </div>
+            <div class="row p-4" id="row-contact">
+                <h2>Let's talk</h2>
+                <p>Use the form below to book a free, no-obligation coffee meeting with me.</p>
+                <div class="col-md-12">
+                    <iframe src="https://koalendar.com/e/meet-with-sorrel-harriet?embed=true" width="100%" height="800px" frameborder="0"></iframe>
+                </div>
+            </div>            
         </div>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
